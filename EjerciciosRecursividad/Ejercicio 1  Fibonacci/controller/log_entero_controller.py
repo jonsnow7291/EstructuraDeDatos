@@ -1,3 +1,9 @@
+"""Controlador Logaritmo Entero
+Autores: Juan Diego Chaparro, Angy Rivas, Karen Ravelo
+Fecha: 2025-09-24
+Descripción: Coordina el cálculo del logaritmo entero floor_b(n).
+"""
+
 import sys
 import os
 

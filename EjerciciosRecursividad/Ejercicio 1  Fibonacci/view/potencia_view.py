@@ -1,3 +1,9 @@
+"""Vista Potencia
+Autores: Juan Diego Chaparro, Angy Rivas, Karen Ravelo
+Fecha: 2025-09-24
+Descripción: Interacción para calcular base^exponente.
+"""
+
 class PotenciaView:
     def get_inputs(self):
         try:

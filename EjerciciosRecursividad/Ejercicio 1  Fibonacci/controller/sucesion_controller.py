@@ -1,3 +1,9 @@
+"""Controlador Sucesión Recursiva Fraccionaria
+Autores: Juan Diego Chaparro, Angy Rivas, Karen Ravelo
+Fecha: 2025-09-24
+Descripción: Coordina la sucesión f(1)=2, f(n)=1/(n+f(n-1)).
+"""
+
 import sys
 import os
 

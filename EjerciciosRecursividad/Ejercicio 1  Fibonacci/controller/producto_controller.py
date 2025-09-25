@@ -1,3 +1,9 @@
+"""Controlador Producto de Dos Enteros
+Autores: Juan Diego Chaparro, Angy Rivas, Karen Ravelo
+Fecha: 2025-09-24
+Descripción: Coordina la operación de producto entre dos enteros.
+"""
+
 import sys
 import os
 

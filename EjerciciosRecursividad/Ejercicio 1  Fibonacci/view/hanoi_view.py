@@ -1,3 +1,9 @@
+"""Vista Torres de Hanoi
+Autores: Juan Diego Chaparro, Angy Rivas, Karen Ravelo
+Fecha: 2025-09-24
+Descripción: Interacción y visualización de pasos para Hanoi.
+"""
+
 class HanoiView:
     def get_inputs(self):
         try:

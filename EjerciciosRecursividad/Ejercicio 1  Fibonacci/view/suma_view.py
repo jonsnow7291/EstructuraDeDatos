@@ -1,3 +1,9 @@
+"""Vista Suma de Enteros
+Autores: Juan Diego Chaparro, Angy Rivas, Karen Ravelo
+Fecha: 2025-09-24
+Descripción: Interacción para la suma 0..n.
+"""
+
 class SumaView:
     def get_input(self):
         try:

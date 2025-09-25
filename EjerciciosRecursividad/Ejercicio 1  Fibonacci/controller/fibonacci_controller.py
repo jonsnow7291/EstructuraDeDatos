@@ -1,3 +1,10 @@
+"""Controlador Fibonacci
+Autores: Juan Diego Chaparro, Angy Rivas, Karen Ravelo
+Fecha: 2025-09-24
+Descripción: Orquesta la interacción entre el modelo y la vista para
+el cálculo del n-ésimo número de Fibonacci.
+"""
+
 import sys
 import os
 

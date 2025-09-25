@@ -1,3 +1,9 @@
+"""Vista Serie Armónica
+Autores: Juan Diego Chaparro, Angy Rivas, Karen Ravelo
+Fecha: 2025-09-24
+Descripción: Maneja entrada y salida para el cálculo de h(n).
+"""
+
 class HarmonicaView:
     def get_input(self):
         try:

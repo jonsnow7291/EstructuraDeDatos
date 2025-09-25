@@ -1,3 +1,9 @@
+"""Modelo Invertir Cadena
+Autores: Juan Diego Chaparro, Angy Rivas, Karen Ravelo
+Fecha: 2025-09-24
+Descripción: Invierte una cadena validando el tipo de entrada.
+"""
+
 class InvertirModel:
     """Modelo para invertir una secuencia de caracteres (string)."""
 

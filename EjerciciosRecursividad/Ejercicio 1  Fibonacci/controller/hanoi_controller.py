@@ -1,3 +1,9 @@
+"""Controlador Torres de Hanoi
+Autores: Juan Diego Chaparro, Angy Rivas, Karen Ravelo
+Fecha: 2025-09-24
+Descripción: Coordina la resolución recursiva del problema de Hanoi.
+"""
+
 import sys
 import os
 

@@ -1,3 +1,9 @@
+"""Modelo Torres de Hanoi
+Autores: Juan Diego Chaparro, Angy Rivas, Karen Ravelo
+Fecha: 2025-09-24
+Descripción: Genera los pasos para resolver Hanoi con n discos.
+"""
+
 class HanoiModel:
     """Modelo para resolver Torres de Hanoi y generar pasos."""
 

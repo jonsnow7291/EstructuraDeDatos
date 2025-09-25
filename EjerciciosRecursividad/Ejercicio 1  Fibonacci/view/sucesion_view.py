@@ -1,3 +1,9 @@
+"""Vista Sucesión Fraccionaria
+Autores: Juan Diego Chaparro, Angy Rivas, Karen Ravelo
+Fecha: 2025-09-24
+Descripción: Interacción para f(1)=2, f(n)=1/(n+f(n-1)).
+"""
+
 class SucesionView:
     def get_input(self):
         try:

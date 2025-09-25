@@ -1,3 +1,10 @@
+"""Modelo Fibonacci
+Autores: Juan Diego Chaparro, Angy Rivas, Karen Ravelo
+Fecha: 2025-09-24
+Descripción: Implementa el cálculo recursivo del n-ésimo número de Fibonacci.
+"""
+
+
 class FibonacciModel:
     def calculate_fibonacci(self, n):
         if n <= 0:

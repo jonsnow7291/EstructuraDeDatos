@@ -1,3 +1,9 @@
+"""Modelo Sucesión Fraccionaria
+Autores: Juan Diego Chaparro, Angy Rivas, Karen Ravelo
+Fecha: 2025-09-24
+Descripción: f(1)=2, f(n)=1/(n + f(n-1)).
+"""
+
 class SucesionModel:
     """Modelo para calcular la sucesión definida por:
     f(1) = 2

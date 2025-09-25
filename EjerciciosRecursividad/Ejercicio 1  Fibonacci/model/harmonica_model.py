@@ -1,3 +1,9 @@
+"""Modelo Serie Armónica
+Autores: Juan Diego Chaparro, Angy Rivas, Karen Ravelo
+Fecha: 2025-09-24
+Descripción: Calcula h(n) de forma iterativa (y alternativa recursiva).
+"""
+
 class HarmonicaModel:
     """Modelo para calcular la serie armónica h(n) = 1 + 1/2 + ... + 1/n."""
 

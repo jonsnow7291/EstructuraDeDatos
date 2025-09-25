@@ -1,3 +1,9 @@
+"""Modelo Suma Enteros 0..n
+Autores: Juan Diego Chaparro, Angy Rivas, Karen Ravelo
+Fecha: 2025-09-24
+Descripción: Calcula la suma de 0 hasta n usando la fórmula cerrada.
+"""
+
 class SumaModel:
     """Modelo para calcular la suma de todos los enteros entre 0 y n (inclusive)."""
 

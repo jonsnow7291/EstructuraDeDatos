@@ -1,3 +1,10 @@
+"""Proyecto: Ejercicios de Recursividad y Operaciones Básicas (MVC)
+Archivo: main.py
+Descripción: Punto de entrada del conjunto de ejercicios recursivos y aritméticos.
+Autores: Juan Diego Chaparro, Angy Rivas, Karen Ravelo
+Fecha: 2025-09-24
+"""
+
 from controller.fibonacci_controller import FibonacciController
 
 
@@ -70,6 +77,11 @@ def mostrar_menu():
 
 
 def main():
+    """Bucle principal del menú interactivo.
+
+    Muestra las opciones disponibles y ejecuta la función asociada
+    según la selección del usuario hasta que elige salir.
+    """
     opciones = {
         "1": ejecutar_fibonacci,
         "2": ejecutar_suma_enteros,

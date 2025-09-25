@@ -1,3 +1,9 @@
+"""Modelo Potencia Recursiva Rápida
+Autores: Juan Diego Chaparro, Angy Rivas, Karen Ravelo
+Fecha: 2025-09-24
+Descripción: Calcula base^exponente usando exponentiación binaria recursiva.
+"""
+
 class PotenciaModel:
     """Modelo para calcular base^exponente con enteros (exponente >= 0)."""
 

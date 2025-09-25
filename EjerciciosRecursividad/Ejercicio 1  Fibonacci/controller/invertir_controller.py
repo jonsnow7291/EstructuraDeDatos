@@ -1,3 +1,9 @@
+"""Controlador Invertir Cadena
+Autores: Juan Diego Chaparro, Angy Rivas, Karen Ravelo
+Fecha: 2025-09-24
+Descripción: Coordina la inversión de una cadena ingresada por el usuario.
+"""
+
 import sys
 import os
 

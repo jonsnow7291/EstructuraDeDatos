@@ -1,3 +1,9 @@
+"""Controlador Suma de Enteros
+Autores: Juan Diego Chaparro, Angy Rivas, Karen Ravelo
+Fecha: 2025-09-24
+Descripción: Coordina la suma de enteros 0..n usando el modelo y la vista.
+"""
+
 import sys
 import os
 

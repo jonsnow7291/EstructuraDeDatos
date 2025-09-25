@@ -1,3 +1,9 @@
+"""Modelo Logaritmo Entero
+Autores: Juan Diego Chaparro, Angy Rivas, Karen Ravelo
+Fecha: 2025-09-24
+Descripción: Calcula floor_b(n) por divisiones sucesivas.
+"""
+
 class LogEnteroModel:
     """Modelo para calcular el logaritmo entero floor_{b}(n),
     es decir el mayor k tal que b**k <= n, usando divisiones sucesivas.

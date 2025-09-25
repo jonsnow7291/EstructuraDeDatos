@@ -1,3 +1,9 @@
+"""Controlador Potencia
+Autores: Juan Diego Chaparro, Angy Rivas, Karen Ravelo
+Fecha: 2025-09-24
+Descripción: Coordina el cálculo recursivo optimizado de base^exponente.
+"""
+
 import sys
 import os
 

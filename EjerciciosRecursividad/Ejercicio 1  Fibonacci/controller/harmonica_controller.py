@@ -1,3 +1,9 @@
+"""Controlador Serie Armónica
+Autores: Juan Diego Chaparro, Angy Rivas, Karen Ravelo
+Fecha: 2025-09-24
+Descripción: Coordina el cálculo de la serie armónica h(n).
+"""
+
 import sys
 import os
 

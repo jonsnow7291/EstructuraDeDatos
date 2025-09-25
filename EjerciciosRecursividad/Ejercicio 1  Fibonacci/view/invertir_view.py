@@ -1,3 +1,9 @@
+"""Vista Invertir Cadena
+Autores: Juan Diego Chaparro, Angy Rivas, Karen Ravelo
+Fecha: 2025-09-24
+Descripción: Interacción para invertir texto.
+"""
+
 class InvertirView:
     def get_input(self):
         texto = input("Ingrese una secuencia de caracteres a invertir: ").strip()

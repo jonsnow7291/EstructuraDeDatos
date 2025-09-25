@@ -1,3 +1,9 @@
+"""Vista Logaritmo Entero
+Autores: Juan Diego Chaparro, Angy Rivas, Karen Ravelo
+Fecha: 2025-09-24
+Descripción: Interacción para calcular floor_b(n).
+"""
+
 class LogEnteroView:
     def get_inputs(self):
         try:

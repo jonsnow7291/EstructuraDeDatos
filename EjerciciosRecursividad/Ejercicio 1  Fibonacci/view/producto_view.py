@@ -1,3 +1,9 @@
+"""Vista Producto de Enteros
+Autores: Juan Diego Chaparro, Angy Rivas, Karen Ravelo
+Fecha: 2025-09-24
+Descripción: Interacción para multiplicar dos enteros.
+"""
+
 class ProductoView:
     def get_inputs(self):
         try:
