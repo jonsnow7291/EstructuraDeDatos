@@ -46,3 +46,29 @@ def test_append_with_limit_ok_and_overflow():
     with pytest.raises(lo.MaxCapacityError):
         # current len is 3, adding another should raise
         lo.append_with_limit(lst, 'b', max_capacity=3)
+
+
+def test_safe_remove_and_remove_all_and_delete_slice():
+    lst = [1, 2, 3, 2, 4, 2]
+    # safe_remove returns True when present
+    assert lo.safe_remove(lst, 2) is True
+    # remove_all removes all remaining 2s
+    removed = lo.remove_all(lst, 2)
+    assert removed == 2
+    assert 2 not in lst
+    # delete_slice: remove first two elements
+    lo.delete_slice(lst, 0, 2)
+    # list should be shorter now
+    assert len(lst) == 1
+
+
+def test_iteration_helpers():
+    lst = [1, 2, 2, 3]
+    assert lo.iterate_apply(lst, lambda x: x * 2) == [2, 4, 4, 6]
+    assert lo.enumerate_list(['a', 'b']) == [(0, 'a'), (1, 'b')]
+    assert lo.find_duplicates(lst) == {2}
+    assert lo.filter_list(lst, lambda x: x % 2 == 1) == [1, 3]
+    # safe_modify_by_copy should modify in-place without skipping
+    t = [1, 2, 3]
+    lo.safe_modify_by_copy(t, lambda x: x + 1)
+    assert t == [2, 3, 4]

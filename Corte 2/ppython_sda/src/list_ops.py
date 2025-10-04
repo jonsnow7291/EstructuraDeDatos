@@ -73,3 +73,67 @@ def append_with_limit(lst: List[Any], value: Any, max_capacity: Optional[int] = 
     if len(lst) >= max_capacity:
         raise MaxCapacityError(f'list reached max capacity {max_capacity}')
     lst.append(value)
+
+
+def safe_remove(lst: List[Any], value: Any) -> bool:
+    """Remove first occurrence of value. Returns True if removed, False if not found.
+
+    This wraps `list.remove` to avoid raising ValueError when value is absent.
+    """
+    try:
+        lst.remove(value)
+        return True
+    except ValueError:
+        return False
+
+
+def remove_all(lst: List[Any], value: Any) -> int:
+    """Remove all occurrences of value from list in-place. Returns number removed."""
+    count = 0
+    # iterate over a copy to avoid skipping
+    for x in lst[:]:
+        if x == value:
+            lst.remove(x)
+            count += 1
+    return count
+
+
+def delete_slice(lst: List[Any], start: int, end: int) -> None:
+    """Delete slice lst[start:end] in-place (like del lst[start:end])."""
+    del lst[start:end]
+
+
+def iterate_apply(lst: List[Any], func: Callable[[Any], Any]) -> List[Any]:
+    """Return a new list where func has been applied to each element (safe, non-mutating)."""
+    return [func(x) for x in lst]
+
+
+def enumerate_list(lst: List[Any]) -> List[tuple]:
+    """Return a list of (index, value) pairs for the input list."""
+    return list(enumerate(lst))
+
+
+def find_duplicates(lst: List[Any]) -> set:
+    """Return a set of duplicated values found in the list."""
+    seen = set()
+    dups = set()
+    for x in lst:
+        if x in seen:
+            dups.add(x)
+        else:
+            seen.add(x)
+    return dups
+
+
+def filter_list(lst: List[Any], predicate: Callable[[Any], bool]) -> List[Any]:
+    """Return a new list containing items where predicate(item) is True."""
+    return [x for x in lst if predicate(x)]
+
+
+def safe_modify_by_copy(lst: List[Any], func: Callable[[Any], Any]) -> None:
+    """Modify the list in-place by applying func to each element, iterating over a copy.
+
+    This avoids problems when modifying the list structure during iteration.
+    """
+    for i, v in enumerate(list(lst)):
+        lst[i] = func(v)
