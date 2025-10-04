@@ -1,0 +1,72 @@
+[
+    {
+        "nombre": "Sergio",
+        "edad": 30,
+        "ciudad": "México",
+        "profesion": "Ingeniero",
+        "email": "sergio@example.com"
+    },
+    {
+        "nombre": "Ana",
+        "edad": 25,
+        "ciudad": "Madrid",
+        "profesion": "Diseñadora",
+        "email": "ana@example.com"
+    },
+    {
+        "nombre": "Luis",
+        "edad": 40,
+        "ciudad": "Buenos Aires",
+        "profesion": "Doctor",
+        "email": "luis@example.com"
+    },
+    {
+        "nombre": "Carla",
+        "edad": 35,
+        "ciudad": "Bogotá",
+        "profesion": "Abogada",
+        "email": "carla@example.com"
+    },
+    {
+        "nombre": "Jorge",
+        "edad": 28,
+        "ciudad": "Lima",
+        "profesion": "Profesor",
+        "email": "jorge@example.com"
+    },
+    {
+        "nombre": "Lucía",
+        "edad": 32,
+        "ciudad": "Santiago",
+        "profesion": "Arquitecta",
+        "email": "lucia@example.com"
+    },
+    {
+        "nombre": "Pedro",
+        "edad": 45,
+        "ciudad": "Quito",
+        "profesion": "Contador",
+        "email": "pedro@example.com"
+    },
+    {
+        "nombre": "María",
+        "edad": 29,
+        "ciudad": "Montevideo",
+        "profesion": "Psicóloga",
+        "email": "maria@example.com"
+    },
+    {
+        "nombre": "Andrés",
+        "edad": 38,
+        "ciudad": "Caracas",
+        "profesion": "Chef",
+        "email": "andres@example.com"
+    },
+    {
+        "nombre": "Sofía",
+        "edad": 27,
+        "ciudad": "San José",
+        "profesion": "Periodista",
+        "email": "sofia@example.com"
+    }
+]
