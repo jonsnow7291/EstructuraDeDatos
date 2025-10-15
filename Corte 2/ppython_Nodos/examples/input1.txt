@@ -1,0 +1,7 @@
+# Archivo de ejemplo para la entrada de src.app
+# Cada línea: <exponente> <coeficiente>
+# Línea vacía al final para indicar fin de entrada
+5 1
+3 -4
+2 3
+
