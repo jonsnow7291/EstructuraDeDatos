@@ -7,7 +7,15 @@ y obtener una representación adecuada para mostrar.
 
 from typing import Iterable, List, Tuple, Optional
 
-from src.model.polinomio import Polinomio, agregar_termino, polinomio_a_lista
+from src.model.polinomio import (
+    Polinomio,
+    agregar_termino,
+    polinomio_a_lista,
+    existe_termino,
+    eliminar_termino,
+    restar,
+    dividir,
+)
 
 
 class PolinomioController:
@@ -53,3 +61,20 @@ class PolinomioController:
     def get_terms_list(self) -> List[Tuple[int, float]]:
         """Devuelve el polinomio como lista de (exponente, coeficiente) ordenada por exponente (desc)."""
         return polinomio_a_lista(self._polinomio)
+
+    # Nuevos métodos
+    def has_exponent(self, exponent: int) -> bool:
+        return existe_termino(self._polinomio, exponent)
+
+    def remove_exponent(self, exponent: int) -> bool:
+        return eliminar_termino(self._polinomio, exponent)
+
+    def subtract(self, other: 'PolinomioController') -> 'PolinomioController':
+        nuevo = restar(self._polinomio, other._polinomio)
+        return PolinomioController(nuevo)
+
+    def divide(self, other: 'PolinomioController'):
+        q, r = dividir(self._polinomio, other._polinomio)
+        if q is None:
+            return None, None
+        return PolinomioController(q), PolinomioController(r)
